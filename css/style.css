@@ -691,6 +691,10 @@ html[data-lang="en"] .exhibition-caption .caption-count {
     text-align: left;
   }
 
+  html[data-lang="ja"] .view-exhibition .exhibition-copy {
+    height: calc(var(--pc-copy-height) + 32px);
+  }
+
   .copy-scroll {
     width: 100%;
     height: 100%;
