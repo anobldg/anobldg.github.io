@@ -1,6 +1,4 @@
-
 User-agent: *
 Allow: /
 
 Sitemap: https://anobldg.github.io/sitemap.xml
-Sitemap: https://anobldg.github.io/anobldg-archive/sitemap.xml
