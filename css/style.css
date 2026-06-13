@@ -879,6 +879,7 @@ html[data-lang="en"] .exhibition-caption .caption-count {
   }
 
   html[data-lang="en"] .exhibition-copy {
+    height: calc(var(--pc-copy-height) + 8px);
     line-height: var(--text-leading-en);
   }
 
