@@ -916,26 +916,38 @@ function getTitle(item) {
   return item[key] || fallbackName(item.src).title;
 }
 
-function getMediaTitle(item) {
+function getPreferredItemTitle(item) {
   if (!item) return "";
   const preferredKey = state.lang === "ja" ? "titleJa" : "titleEn";
   const fallbackKey = state.lang === "ja" ? "titleEn" : "titleJa";
   return item[preferredKey] || item[fallbackKey] || "";
 }
 
-function getMediaAlt(item, gallery) {
-  const title = getMediaTitle(item);
+function getMediaGroup(item, gallery) {
+  return gallery || item?.gallery || state.page;
+}
+
+function buildMediaAlt(item, gallery) {
+  const title = getPreferredItemTitle(item);
   if (!title) return "";
 
-  if (gallery === "exhibition") {
+  if (getMediaGroup(item, gallery) === "exhibition") {
     return state.lang === "ja"
-      ? `建築展「アノビルのこと」の展示記録：${title}`
-      : `Exhibition archive image from “Ano Bldg”: ${title}`;
+      ? `建築展「アノビルのこと」展示記録画像：${title}`
+      : `Exhibition archive image from Ano Bldg: ${title}`;
   }
 
   return state.lang === "ja"
-    ? `建築展「アノビルのこと」のアーカイブ画像：${title}`
-    : `Archive image from the architecture exhibition “Ano Bldg”: ${title}`;
+    ? `アノビルのこと アーカイブ画像：${title}`
+    : `Ano Bldg archive image: ${title}`;
+}
+
+function getMediaTitle(item) {
+  return getPreferredItemTitle(item);
+}
+
+function getMediaAlt(item, gallery) {
+  return buildMediaAlt(item, gallery);
 }
 
 function getGalleryAriaLabel(item, gallery) {
