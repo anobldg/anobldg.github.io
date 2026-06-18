@@ -2036,11 +2036,13 @@ html[data-lang="en"] .ano-caption .caption-subtitle,
   }
 
   html[data-lang="ja"] .app[data-page="exhibition"] .view-exhibition .exhibition-copy {
-    height: calc(var(--leading-17-5pt) * 15);
+    height: calc(var(--leading-17-5pt) * 14);
+    max-height: calc(var(--leading-17-5pt) * 14);
   }
 
   html[data-lang="en"] .app[data-page="exhibition"] .view-exhibition .exhibition-copy {
-    height: calc(24px * 13);
+    height: calc(24px * 14);
+    max-height: calc(24px * 14);
   }
 
   html[data-lang="ja"] .app[data-page="exhibition"] .view-exhibition .copy-scroll.copy-body {
@@ -2058,11 +2060,13 @@ html[data-lang="en"] .ano-caption .caption-subtitle,
   }
 
   html[data-lang="ja"] .app[data-page="exhibition"][data-exhibition-number="1"] .view-exhibition .exhibition-copy {
-    height: calc(var(--leading-17-5pt) * 13);
+    height: calc(var(--leading-17-5pt) * 14);
+    max-height: calc(var(--leading-17-5pt) * 14);
   }
 
   html[data-lang="en"] .app[data-page="exhibition"][data-exhibition-number="1"] .view-exhibition .exhibition-copy {
-    height: calc(24px * 12);
+    height: calc(24px * 14);
+    max-height: calc(24px * 14);
   }
 
   .left-lower-area {
