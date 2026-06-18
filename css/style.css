@@ -2044,15 +2044,15 @@ html[data-lang="en"] .ano-caption .caption-subtitle,
   }
 
   html[data-lang="ja"] .app[data-page="exhibition"] .view-exhibition .copy-scroll.copy-body {
-    height: calc(var(--leading-17-5pt) * 13);
-    max-height: calc(var(--leading-17-5pt) * 13);
+    height: calc(var(--leading-17-5pt) * 14);
+    max-height: calc(var(--leading-17-5pt) * 14);
     overflow-y: auto;
     overflow-x: hidden;
   }
 
   html[data-lang="en"] .app[data-page="exhibition"] .view-exhibition .copy-scroll.copy-body {
-    height: calc(24px * 12);
-    max-height: calc(24px * 12);
+    height: calc(24px * 14);
+    max-height: calc(24px * 14);
     overflow-y: auto;
     overflow-x: hidden;
   }
