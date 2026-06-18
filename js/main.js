@@ -153,6 +153,9 @@ const COPY = {
 };
 
 const els = {};
+let textScrollGridRaf = 0;
+const textScrollSnapTimers = new WeakMap();
+const textScrollSnapBound = new WeakSet();
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -284,6 +287,8 @@ function bindEvents() {
     if (event.key === "ArrowRight") changeImage(state.page, 1);
     if (event.key === "ArrowLeft") changeImage(state.page, -1);
   });
+
+  window.addEventListener("resize", scheduleTextScrollGridAlignment);
 }
 
 function bindStageGesture(gallery, stage) {
@@ -807,12 +812,81 @@ function getAnoCaptionTitleKey(title) {
 }
 
 function resetExhibitionTextScroll() {
-  const scrollContainer = els.exhibitionText?.closest(".copy-scroll");
   requestAnimationFrame(() => {
-    if (scrollContainer) {
-      scrollContainer.scrollTop = 0;
+    if (els.exhibitionText) {
+      els.exhibitionText.scrollTop = 0;
     }
+    scheduleTextScrollGridAlignment();
   });
+}
+
+function getComputedLineHeightPx(element) {
+  const styles = window.getComputedStyle(element);
+  const lineHeight = Number.parseFloat(styles.lineHeight);
+  if (Number.isFinite(lineHeight) && lineHeight > 0) return lineHeight;
+
+  const fontSize = Number.parseFloat(styles.fontSize);
+  return Number.isFinite(fontSize) && fontSize > 0 ? fontSize * 1.2 : 0;
+}
+
+function alignTextScrollGrid() {
+  if (state.page !== "exhibition") return;
+
+  document.querySelectorAll(".view-exhibition .copy-scroll.copy-body").forEach((scrollContainer) => {
+    bindTextScrollSnap(scrollContainer);
+    scrollContainer.style.setProperty("--scroll-end-padding", "0px");
+
+    const lineHeight = getComputedLineHeightPx(scrollContainer);
+    if (!lineHeight) return;
+
+    const maxScroll = Math.max(0, scrollContainer.scrollHeight - scrollContainer.clientHeight);
+    if (!maxScroll) return;
+
+    const remainder = maxScroll % lineHeight;
+    const padding = remainder < 0.5 || lineHeight - remainder < 0.5 ? 0 : lineHeight - remainder;
+    scrollContainer.style.setProperty("--scroll-end-padding", `${padding.toFixed(2)}px`);
+    snapTextScrollToLineGrid(scrollContainer);
+  });
+}
+
+function snapTextScrollToLineGrid(scrollContainer) {
+  const lineHeight = getComputedLineHeightPx(scrollContainer);
+  if (!lineHeight) return;
+
+  const maxScroll = Math.max(0, scrollContainer.scrollHeight - scrollContainer.clientHeight);
+  const snapped = Math.round(scrollContainer.scrollTop / lineHeight) * lineHeight;
+  scrollContainer.scrollTop = Math.max(0, Math.min(snapped, maxScroll));
+}
+
+function bindTextScrollSnap(scrollContainer) {
+  if (textScrollSnapBound.has(scrollContainer)) return;
+  textScrollSnapBound.add(scrollContainer);
+
+  scrollContainer.addEventListener("scroll", () => {
+    const previousTimer = textScrollSnapTimers.get(scrollContainer);
+    if (previousTimer) window.clearTimeout(previousTimer);
+
+    const nextTimer = window.setTimeout(() => {
+      snapTextScrollToLineGrid(scrollContainer);
+      textScrollSnapTimers.delete(scrollContainer);
+    }, 120);
+    textScrollSnapTimers.set(scrollContainer, nextTimer);
+  });
+}
+
+function scheduleTextScrollGridAlignment() {
+  if (textScrollGridRaf) window.cancelAnimationFrame(textScrollGridRaf);
+
+  textScrollGridRaf = window.requestAnimationFrame(() => {
+    textScrollGridRaf = 0;
+    alignTextScrollGrid();
+  });
+
+  if (document.fonts?.ready) {
+    document.fonts.ready.then(() => {
+      window.requestAnimationFrame(alignTextScrollGrid);
+    });
+  }
 }
 
 async function renderExhibitionDetails(options = {}) {
@@ -855,6 +929,8 @@ async function renderExhibitionDetails(options = {}) {
   els.exhibitionText.textContent = nextTextContent;
   if (textWillChange) {
     resetExhibitionTextScroll();
+  } else {
+    scheduleTextScrollGridAlignment();
   }
 }
 
