@@ -1225,12 +1225,12 @@ function getExhibitionBackgroundPath(item) {
   if (number >= 1 && number <= 5) return BACKGROUND_IMAGES.archive;
   if (number >= 6 && number <= 9) return BACKGROUND_IMAGES.first;
   if (number === 10) return BACKGROUND_WHITE;
-  if (number >= 11 && number <= 12) return BACKGROUND_IMAGES.first;
-  if (number === 13) return BACKGROUND_WHITE;
-  if (number === 14) return BACKGROUND_IMAGES.first;
-  if (number >= 15 && number <= 16) return BACKGROUND_IMAGES.second;
-  if (number === 18) return BACKGROUND_WHITE;
-  if (number >= 17 && number <= 34) return BACKGROUND_IMAGES.third;
+  if (number >= 11 && number <= 16) return BACKGROUND_IMAGES.first;
+  if (number === 17) return BACKGROUND_WHITE;
+  if (number === 18) return BACKGROUND_IMAGES.first;
+  if (number >= 19 && number <= 20) return BACKGROUND_IMAGES.second;
+  if (number === 22) return BACKGROUND_WHITE;
+  if (number >= 21 && number <= 38) return BACKGROUND_IMAGES.third;
   return BACKGROUND_WHITE;
 }
 
