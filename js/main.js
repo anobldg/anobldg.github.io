@@ -73,8 +73,39 @@ const SEO_META = {
   }
 };
 
+const ROUTE_VIEWS = {
+  "archive-book": "archive",
+  "first-season": "abstraction",
+  "second-season": "fragments",
+  "third-season": "reading"
+};
+
+const ROUTE_META = {
+  root: {
+    title: "アノビルのこと / Ano Bldg",
+    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブサイト。横山町でのリサーチ、図面、模型、テキスト、展示写真を収録しています。"
+  },
+  "archive-book": {
+    title: "Ano Bldg Archive Book / アノビルのこと",
+    description: "Ano Bldg Archive Book and exhibition archive for Ano Bldg in Yokoyama-cho."
+  },
+  "first-season": {
+    title: "抽象化への探求 / An Exploration of Abstraction | Ano Bldg",
+    description: "First Season, An Exploration of Abstraction, from the Ano Bldg exhibition archive."
+  },
+  "second-season": {
+    title: "断片から全体へ / From Fragments to the Whole | Ano Bldg",
+    description: "Second Season, From Fragments to the Whole, from the Ano Bldg exhibition archive."
+  },
+  "third-season": {
+    title: "読む建築展 / Reading Architecture Exhibition | Ano Bldg",
+    description: "Third Season, Reading Architecture Exhibition, from the Ano Bldg exhibition archive."
+  }
+};
+
 const state = {
   page: "anoBuilding",
+  routeView: "",
   lang: "ja",
   indexes: {
     anoBuilding: 0,
@@ -192,6 +223,7 @@ async function init() {
     state.data = { anoBuilding: [], exhibition: [] };
   }
 
+  applyInitialRouteView();
   renderAll({ immediate: true });
   const firstAnoReady = preloadMedia(getCurrentItem("anoBuilding"));
   const anoBackgroundsReady = preloadInitialBackgrounds();
@@ -408,7 +440,8 @@ function setLanguage(lang) {
 }
 
 function updateSeoMeta() {
-  const meta = SEO_META[state.lang]?.[state.page] || SEO_META.ja.anoBuilding;
+  const routeMeta = state.routeView ? ROUTE_META[state.routeView] : ROUTE_META.root;
+  const meta = routeMeta || SEO_META[state.lang]?.[state.page] || SEO_META.ja.anoBuilding;
   document.title = meta.title;
 
   let description = document.querySelector('meta[name="description"]');
@@ -418,6 +451,16 @@ function updateSeoMeta() {
     document.head.appendChild(description);
   }
   description.setAttribute("content", meta.description);
+  setMetaContent('meta[property="og:title"]', meta.title);
+  setMetaContent('meta[property="og:description"]', meta.description);
+  setMetaContent('meta[property="og:url"]', getPublicRouteUrl(state.routeView));
+  setMetaContent('meta[name="twitter:title"]', meta.title);
+  setMetaContent('meta[name="twitter:description"]', meta.description);
+}
+
+function setMetaContent(selector, content) {
+  const meta = document.querySelector(selector);
+  if (meta) meta.setAttribute("content", content);
 }
 
 function changeImage(gallery, direction, options = {}) {
@@ -431,6 +474,7 @@ function changeImage(gallery, direction, options = {}) {
   const prevItem = items[current];
   const nextItem = items[next];
   state.indexes[gallery] = next;
+  if (gallery === "anoBuilding") syncRouteToAnoItem(nextItem);
   updateCurrentPageBackground(gallery);
   if (options.skipStageAnimation) {
     replaceCurrentStageMedia(gallery, nextItem, options.preparedMedia);
@@ -809,6 +853,79 @@ function getAnoCaptionTitleKey(title) {
   if (title === "アノビルアーカイブ") return "archive";
   if (title === "Ano Building Archive" || title === "Ano Bldg Archive") return "archive";
   return "";
+}
+
+function applyInitialRouteView() {
+  const routeView = getRequestedRouteView();
+  if (!routeView) {
+    state.routeView = "";
+    updateSeoMeta();
+    return;
+  }
+
+  if (!Object.prototype.hasOwnProperty.call(ROUTE_VIEWS, routeView)) {
+    state.routeView = "";
+    replaceRouteUrl("");
+    updateSeoMeta();
+    return;
+  }
+
+  const index = findAnoRouteIndex(routeView);
+  if (index < 0) {
+    console.warn(`[route view not found] ${routeView}`);
+    state.routeView = "";
+    replaceRouteUrl("");
+    updateSeoMeta();
+    return;
+  }
+
+  state.page = "anoBuilding";
+  state.indexes.anoBuilding = index;
+  state.routeView = routeView;
+  replaceRouteUrl(routeView);
+  updateSeoMeta();
+}
+
+function getRequestedRouteView() {
+  const params = new URLSearchParams(window.location.search);
+  const routeView = params.get("view");
+  return routeView ? routeView.trim() : "";
+}
+
+function findAnoRouteIndex(routeView) {
+  const items = state.data.anoBuilding || [];
+  return items.findIndex((item) => getAnoItemRouteView(item) === routeView);
+}
+
+function getAnoItemRouteView(item) {
+  const key = getAnoCaptionTitleKey(item?.titleJa || item?.titleEn || "");
+  return Object.entries(ROUTE_VIEWS).find(([, routeKey]) => routeKey === key)?.[0] || "";
+}
+
+function syncRouteToAnoItem(item) {
+  const routeView = getAnoItemRouteView(item);
+  state.routeView = routeView;
+  replaceRouteUrl(routeView);
+  updateSeoMeta();
+}
+
+function replaceRouteUrl(routeView) {
+  if (!window.history?.replaceState) return;
+  window.history.replaceState(null, "", getLocalRouteUrl(routeView));
+}
+
+function getLocalRouteUrl(routeView) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+  if (routeView) url.searchParams.set("view", routeView);
+  return `${url.pathname}${url.search}`;
+}
+
+function getPublicRouteUrl(routeView) {
+  const url = new URL("https://anobldg.github.io/");
+  if (routeView) url.searchParams.set("view", routeView);
+  return url.toString();
 }
 
 function resetExhibitionTextScroll() {
