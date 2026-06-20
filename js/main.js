@@ -1,6 +1,6 @@
 const PURCHASE_URL = "#";
 const DATA_URL = "data/images.json";
-const DATA_VERSION = "20260610-phase4-1-1-slide-lock-scrollbar";
+const DATA_VERSION = "20260621-exhibition-38-numbered-images";
 const DEBUG_TEXT = false;
 const DEBUG_LOAD = false;
 const LOADER_MIN_DISPLAY = 3000;
