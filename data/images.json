@@ -164,198 +164,198 @@
       "type": "image",
       "titleJa": "1：100模型 アノビルと周辺6棟",
       "titleEn": "1:100 Model of Ano Building and Its Surroundings",
-      "textGroup": "11",
-      "textJa": "assets/exhibition/texts/11_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "textEn": "assets/exhibition/texts/11_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
+      "textGroup": "11,12,13,14,15",
+      "textJa": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "12",
-      "src": "assets/exhibition/images/12_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.webp?m=1c75a03a01",
+      "src": "assets/exhibition/images/12_%E4%BD%8F%E6%88%B8%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A3.webp?m=a2a0486ad8",
       "type": "image",
-      "titleJa": "コラージュ ドローイング",
-      "titleEn": "Collage Drawings",
-      "textGroup": "12",
-      "textJa": "assets/exhibition/texts/12_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "textEn": "assets/exhibition/texts/12_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
+      "titleJa": "住戸スタディ",
+      "titleEn": "住戸スタディ",
+      "textGroup": "11,12,13,14,15",
+      "textJa": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "13",
-      "src": "assets/exhibition/images/13_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.webp?m=cab9c4c2df",
+      "src": "assets/exhibition/images/13_%E5%81%B4%E9%9D%A2%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A3.webp?m=d94ace1927",
       "type": "image",
-      "titleJa": "1住戸の平面ダイアグラム",
-      "titleEn": "Apartment Unit Plan Diagram",
-      "textGroup": "13",
-      "textJa": "assets/exhibition/texts/13_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "textEn": "assets/exhibition/texts/13_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
+      "titleJa": "側面ファサードスタディ",
+      "titleEn": "側面ファサードスタディ",
+      "textGroup": "11,12,13,14,15",
+      "textJa": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "14",
-      "src": "assets/exhibition/images/14_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.webp?m=b0634d7e90",
+      "src": "assets/exhibition/images/14_%E5%B9%B3%E9%9D%A2%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A3.webp?m=f443cd4256",
       "type": "image",
-      "titleJa": "模型とドローイングを交互に参照する",
-      "titleEn": "Moving Between Models and Drawings",
-      "textGroup": "14",
-      "textJa": "assets/exhibition/texts/14_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "textEn": "assets/exhibition/texts/14_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
+      "titleJa": "平面スタディ",
+      "titleEn": "平面スタディ",
+      "textGroup": "11,12,13,14,15",
+      "textJa": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "15",
-      "src": "assets/exhibition/images/15_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.webp?m=c2c7edb6a7",
+      "src": "assets/exhibition/images/15_%E9%81%93%E8%B7%AF%E5%81%B4%E7%AB%8B%E9%9D%A2%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A3.webp?m=dd1994799e",
       "type": "image",
-      "titleJa": "第2期：断片から全体へ",
-      "titleEn": "Season2: From Fragments to a Whole",
-      "textGroup": "15",
-      "textJa": "assets/exhibition/texts/15_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
-      "textEn": "assets/exhibition/texts/15_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt",
+      "titleJa": "道路側立面スタディ",
+      "titleEn": "道路側立面スタディ",
+      "textGroup": "11,12,13,14,15",
+      "textJa": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "16",
-      "src": "assets/exhibition/images/16_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.webp?m=bd7a4470c8",
+      "src": "assets/exhibition/images/16_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.webp?m=1c75a03a01",
       "type": "image",
-      "titleJa": "空隙",
-      "titleEn": "Empty Space",
+      "titleJa": "コラージュ ドローイング",
+      "titleEn": "Collage Drawings",
       "textGroup": "16",
-      "textJa": "assets/exhibition/texts/16_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
-      "textEn": "assets/exhibition/texts/16_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt",
+      "textJa": "assets/exhibition/texts/16_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/16_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "17",
-      "src": "assets/exhibition/images/17_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=ca56a25f9d",
+      "src": "assets/exhibition/images/17_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.webp?m=cab9c4c2df",
       "type": "image",
-      "titleJa": "第3期：読む建築展",
-      "titleEn": "Season3: Exhibition as a Medium for Architecture",
+      "titleJa": "1住戸の平面ダイアグラム",
+      "titleEn": "Apartment Unit Plan Diagram",
       "textGroup": "17",
-      "textJa": "assets/exhibition/texts/17_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/17_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "textJa": "assets/exhibition/texts/17_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/17_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "18",
-      "src": "assets/exhibition/images/18_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.svg?m=bee7977c10",
-      "type": "svg",
-      "titleJa": "4脚の椅子",
-      "titleEn": "4 Chairs",
-      "textGroup": "18,19,20",
-      "textJa": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "src": "assets/exhibition/images/18_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.webp?m=b0634d7e90",
+      "type": "image",
+      "titleJa": "模型とドローイングを交互に参照する",
+      "titleEn": "Moving Between Models and Drawings",
+      "textGroup": "18",
+      "textJa": "assets/exhibition/texts/18_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "textEn": "assets/exhibition/texts/18_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "19",
-      "src": "assets/exhibition/images/19_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=ebcf506da3",
+      "src": "assets/exhibition/images/19_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.webp?m=c2c7edb6a7",
       "type": "image",
-      "titleJa": "椅子に座り、本を読みながら、模型を見る",
-      "titleEn": "Sitting on a Chair, Reading a Book, and Looking at the Model",
-      "textGroup": "18,19,20",
-      "textJa": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "第2期：断片から全体へ",
+      "titleEn": "Season2: From Fragments to a Whole",
+      "textGroup": "19",
+      "textJa": "assets/exhibition/texts/19_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
+      "textEn": "assets/exhibition/texts/19_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "20",
-      "src": "assets/exhibition/images/20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=072d55ce03",
+      "src": "assets/exhibition/images/20_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.webp?m=bd7a4470c8",
       "type": "image",
-      "titleJa": "4脚の椅子",
-      "titleEn": "4 Chairs",
-      "textGroup": "18,19,20",
-      "textJa": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "空隙",
+      "titleEn": "Empty Space",
+      "textGroup": "20",
+      "textJa": "assets/exhibition/texts/20_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
+      "textEn": "assets/exhibition/texts/20_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "21",
-      "src": "assets/exhibition/images/21_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=ebe5df595e",
+      "src": "assets/exhibition/images/21_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=ca56a25f9d",
       "type": "image",
-      "titleJa": "展示本「断片から全体を知覚する」",
-      "titleEn": "Exhibition Book: From Fragments to a Whole",
-      "textGroup": "21,22",
-      "textJa": "assets/exhibition/texts/21,22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/21,22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "第3期：読む建築展",
+      "titleEn": "Season3: Exhibition as a Medium for Architecture",
+      "textGroup": "21",
+      "textJa": "assets/exhibition/texts/21_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/21_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "22",
-      "src": "assets/exhibition/images/22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=eeb9b03048",
-      "type": "image",
-      "titleJa": "展示本「断片から全体を知覚する」",
-      "titleEn": "Exhibition Book: From Fragments to a Whole",
-      "textGroup": "21,22",
-      "textJa": "assets/exhibition/texts/21,22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/21,22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "src": "assets/exhibition/images/22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.svg?m=bee7977c10",
+      "type": "svg",
+      "titleJa": "4脚の椅子",
+      "titleEn": "4 Chairs",
+      "textGroup": "22,23,24",
+      "textJa": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "23",
-      "src": "assets/exhibition/images/23_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=bb41b2646e",
+      "src": "assets/exhibition/images/23_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=ebcf506da3",
       "type": "image",
-      "titleJa": "展示本「抽象化への探求」",
-      "titleEn": "Exhibition Book: In Search of Abstraction",
-      "textGroup": "23,24",
-      "textJa": "assets/exhibition/texts/23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "椅子に座り、本を読みながら、模型を見る",
+      "titleEn": "Sitting on a Chair, Reading a Book, and Looking at the Model",
+      "textGroup": "22,23,24",
+      "textJa": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "24",
-      "src": "assets/exhibition/images/24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=815889fd3b",
+      "src": "assets/exhibition/images/24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=072d55ce03",
       "type": "image",
-      "titleJa": "展示本「抽象化への探求」",
-      "titleEn": "Exhibition Book: In Search of Abstraction",
-      "textGroup": "23,24",
-      "textJa": "assets/exhibition/texts/23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "4脚の椅子",
+      "titleEn": "4 Chairs",
+      "textGroup": "22,23,24",
+      "textJa": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "25",
-      "src": "assets/exhibition/images/25_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=d6df5f44b8",
+      "src": "assets/exhibition/images/25_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=ebe5df595e",
       "type": "image",
-      "titleJa": "展示本「アノビルと横山町」",
-      "titleEn": "Exhibition Book: Ano Building and Yokoyamacho",
+      "titleJa": "展示本「断片から全体を知覚する」",
+      "titleEn": "Exhibition Book: From Fragments to a Whole",
       "textGroup": "25,26",
-      "textJa": "assets/exhibition/texts/25.26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/25.26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "textJa": "assets/exhibition/texts/25,26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/25,26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "26",
-      "src": "assets/exhibition/images/26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=c40c5fe5d6",
+      "src": "assets/exhibition/images/26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=eeb9b03048",
       "type": "image",
-      "titleJa": "展示本「アノビルと横山町」",
-      "titleEn": "Exhibition Book: Ano Building and Yokoyamacho",
+      "titleJa": "展示本「断片から全体を知覚する」",
+      "titleEn": "Exhibition Book: From Fragments to a Whole",
       "textGroup": "25,26",
-      "textJa": "assets/exhibition/texts/25.26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/25.26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "textJa": "assets/exhibition/texts/25,26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/25,26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "27",
-      "src": "assets/exhibition/images/27_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=c01dc3592c",
+      "src": "assets/exhibition/images/27_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=bb41b2646e",
       "type": "image",
-      "titleJa": "展示本「読む建築」",
-      "titleEn": "Exhibition Book: Reading Architecture",
+      "titleJa": "展示本「抽象化への探求」",
+      "titleEn": "Exhibition Book: In Search of Abstraction",
       "textGroup": "27,28",
       "textJa": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
       "textEn": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
@@ -364,10 +364,10 @@
     },
     {
       "id": "28",
-      "src": "assets/exhibition/images/28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=a3750cd742",
+      "src": "assets/exhibition/images/28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=815889fd3b",
       "type": "image",
-      "titleJa": "展示本「読む建築」",
-      "titleEn": "Exhibition Book: Reading Architecture",
+      "titleJa": "展示本「抽象化への探求」",
+      "titleEn": "Exhibition Book: In Search of Abstraction",
       "textGroup": "27,28",
       "textJa": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
       "textEn": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
@@ -376,73 +376,121 @@
     },
     {
       "id": "29",
-      "src": "assets/exhibition/images/29_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=69a90651cf",
+      "src": "assets/exhibition/images/29_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=d6df5f44b8",
       "type": "image",
-      "titleJa": "1：20 断面模型",
-      "titleEn": "1:20 Section Model",
-      "textGroup": "29,30,31,32,33,34",
-      "textJa": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "展示本「アノビルと横山町」",
+      "titleEn": "Exhibition Book: Ano Building and Yokoyamacho",
+      "textGroup": "29,30",
+      "textJa": "assets/exhibition/texts/29,30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/29,30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "30",
-      "src": "assets/exhibition/images/30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=03d8b8ab4a",
+      "src": "assets/exhibition/images/30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=c40c5fe5d6",
       "type": "image",
-      "titleJa": "1：20 断面模型",
-      "titleEn": "1:20 Section Model",
-      "textGroup": "29,30,31,32,33,34",
-      "textJa": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "展示本「アノビルと横山町」",
+      "titleEn": "Exhibition Book: Ano Building and Yokoyamacho",
+      "textGroup": "29,30",
+      "textJa": "assets/exhibition/texts/29,30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/29,30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "31",
-      "src": "assets/exhibition/images/31_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=5d9afa2ac0",
+      "src": "assets/exhibition/images/31_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89.webp?m=c01dc3592c",
       "type": "image",
-      "titleJa": "1：20 断面模型",
-      "titleEn": "1:20 Section Model",
-      "textGroup": "29,30,31,32,33,34",
-      "textJa": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "展示本「読む建築」",
+      "titleEn": "Exhibition Book: Reading Architecture",
+      "textGroup": "31,32",
+      "textJa": "assets/exhibition/texts/31,32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/31,32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "32",
-      "src": "assets/exhibition/images/32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=d0431e1f87",
+      "src": "assets/exhibition/images/32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=a3750cd742",
       "type": "image",
-      "titleJa": "1：20 断面模型",
-      "titleEn": "1:20 Section Model",
-      "textGroup": "29,30,31,32,33,34",
-      "textJa": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "titleJa": "展示本「読む建築」",
+      "titleEn": "Exhibition Book: Reading Architecture",
+      "textGroup": "31,32",
+      "textJa": "assets/exhibition/texts/31,32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/31,32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "33",
-      "src": "assets/exhibition/images/33_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=2b924339b7",
+      "src": "assets/exhibition/images/33_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=69a90651cf",
       "type": "image",
       "titleJa": "1：20 断面模型",
       "titleEn": "1:20 Section Model",
-      "textGroup": "29,30,31,32,33,34",
-      "textJa": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "textGroup": "33,34,35,36,37,38",
+      "textJa": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     },
     {
       "id": "34",
-      "src": "assets/exhibition/images/34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=3420f62a1c",
+      "src": "assets/exhibition/images/34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=03d8b8ab4a",
       "type": "image",
       "titleJa": "1：20 断面模型",
       "titleEn": "1:20 Section Model",
-      "textGroup": "29,30,31,32,33,34",
-      "textJa": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "textEn": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "textGroup": "33,34,35,36,37,38",
+      "textJa": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "archive": false,
+      "archiveGroup": ""
+    },
+    {
+      "id": "35",
+      "src": "assets/exhibition/images/35_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=5d9afa2ac0",
+      "type": "image",
+      "titleJa": "1：20 断面模型",
+      "titleEn": "1:20 Section Model",
+      "textGroup": "33,34,35,36,37,38",
+      "textJa": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "archive": false,
+      "archiveGroup": ""
+    },
+    {
+      "id": "36",
+      "src": "assets/exhibition/images/36_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=d0431e1f87",
+      "type": "image",
+      "titleJa": "1：20 断面模型",
+      "titleEn": "1:20 Section Model",
+      "textGroup": "33,34,35,36,37,38",
+      "textJa": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "archive": false,
+      "archiveGroup": ""
+    },
+    {
+      "id": "37",
+      "src": "assets/exhibition/images/37_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=2b924339b7",
+      "type": "image",
+      "titleJa": "1：20 断面模型",
+      "titleEn": "1:20 Section Model",
+      "textGroup": "33,34,35,36,37,38",
+      "textJa": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
+      "archive": false,
+      "archiveGroup": ""
+    },
+    {
+      "id": "38",
+      "src": "assets/exhibition/images/38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.webp?m=3420f62a1c",
+      "type": "image",
+      "titleJa": "1：20 断面模型",
+      "titleEn": "1:20 Section Model",
+      "textGroup": "33,34,35,36,37,38",
+      "textJa": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "textEn": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt",
       "archive": false,
       "archiveGroup": ""
     }
@@ -457,68 +505,137 @@
       "ja": "assets/exhibition/texts/10_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
       "en": "assets/exhibition/texts/10_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
     },
-    "11": {
-      "numbers": [
-        "11"
-      ],
-      "titleJa": "1：100模型 アノビルと周辺6棟",
-      "titleEn": "1:100 Model of Ano Building and Its Surroundings",
-      "ja": "assets/exhibition/texts/11_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "en": "assets/exhibition/texts/11_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
-    },
-    "12": {
-      "numbers": [
-        "12"
-      ],
-      "titleJa": "コラージュ ドローイング",
-      "titleEn": "Collage Drawings",
-      "ja": "assets/exhibition/texts/12_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "en": "assets/exhibition/texts/12_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
-    },
-    "13": {
-      "numbers": [
-        "13"
-      ],
-      "titleJa": "1住戸の平面ダイアグラム",
-      "titleEn": "Apartment Unit Plan Diagram",
-      "ja": "assets/exhibition/texts/13_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "en": "assets/exhibition/texts/13_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
-    },
-    "14": {
-      "numbers": [
-        "14"
-      ],
-      "titleJa": "模型とドローイングを交互に参照する",
-      "titleEn": "Moving Between Models and Drawings",
-      "ja": "assets/exhibition/texts/14_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
-      "en": "assets/exhibition/texts/14_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
-    },
-    "15": {
-      "numbers": [
-        "15"
-      ],
-      "titleJa": "第2期：断片から全体へ",
-      "titleEn": "Season2: From Fragments to a Whole",
-      "ja": "assets/exhibition/texts/15_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
-      "en": "assets/exhibition/texts/15_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt"
-    },
     "16": {
       "numbers": [
         "16"
       ],
-      "titleJa": "空隙",
-      "titleEn": "Empty Space",
-      "ja": "assets/exhibition/texts/16_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
-      "en": "assets/exhibition/texts/16_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt"
+      "titleJa": "コラージュ ドローイング",
+      "titleEn": "Collage Drawings",
+      "ja": "assets/exhibition/texts/16_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "en": "assets/exhibition/texts/16_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
     },
     "17": {
       "numbers": [
         "17"
       ],
+      "titleJa": "1住戸の平面ダイアグラム",
+      "titleEn": "Apartment Unit Plan Diagram",
+      "ja": "assets/exhibition/texts/17_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "en": "assets/exhibition/texts/17_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
+    },
+    "18": {
+      "numbers": [
+        "18"
+      ],
+      "titleJa": "模型とドローイングを交互に参照する",
+      "titleEn": "Moving Between Models and Drawings",
+      "ja": "assets/exhibition/texts/18_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "en": "assets/exhibition/texts/18_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
+    },
+    "19": {
+      "numbers": [
+        "19"
+      ],
+      "titleJa": "第2期：断片から全体へ",
+      "titleEn": "Season2: From Fragments to a Whole",
+      "ja": "assets/exhibition/texts/19_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
+      "en": "assets/exhibition/texts/19_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt"
+    },
+    "20": {
+      "numbers": [
+        "20"
+      ],
+      "titleJa": "空隙",
+      "titleEn": "Empty Space",
+      "ja": "assets/exhibition/texts/20_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8.txt",
+      "en": "assets/exhibition/texts/20_%E6%96%AD%E7%89%87%E3%81%8B%E3%82%89%E5%85%A8%E4%BD%93%E3%81%B8_EN.txt"
+    },
+    "21": {
+      "numbers": [
+        "21"
+      ],
       "titleJa": "第3期：読む建築展",
       "titleEn": "Season3: Exhibition as a Medium for Architecture",
-      "ja": "assets/exhibition/texts/17_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/17_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+      "ja": "assets/exhibition/texts/21_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/21_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+    },
+    "11,12,13,14,15": {
+      "numbers": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "titleJa": "1：100模型 アノビルと周辺6棟",
+      "titleEn": "1:100 Model of Ano Building and Its Surroundings",
+      "ja": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
+      "en": "assets/exhibition/texts/11,12,13,14,15_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
+    },
+    "22,23,24": {
+      "numbers": [
+        "22",
+        "23",
+        "24"
+      ],
+      "titleJa": "4脚の椅子",
+      "titleEn": "4 Chairs",
+      "ja": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/22,23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+    },
+    "25,26": {
+      "numbers": [
+        "25",
+        "26"
+      ],
+      "titleJa": "展示本「断片から全体を知覚する」",
+      "titleEn": "Exhibition Book: From Fragments to a Whole",
+      "ja": "assets/exhibition/texts/25,26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/25,26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+    },
+    "27,28": {
+      "numbers": [
+        "27",
+        "28"
+      ],
+      "titleJa": "展示本「抽象化への探求」",
+      "titleEn": "Exhibition Book: In Search of Abstraction",
+      "ja": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+    },
+    "29,30": {
+      "numbers": [
+        "29",
+        "30"
+      ],
+      "titleJa": "展示本「アノビルと横山町」",
+      "titleEn": "Exhibition Book: Ano Building and Yokoyamacho",
+      "ja": "assets/exhibition/texts/29,30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/29,30_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+    },
+    "31,32": {
+      "numbers": [
+        "31",
+        "32"
+      ],
+      "titleJa": "展示本「読む建築」",
+      "titleEn": "Exhibition Book: Reading Architecture",
+      "ja": "assets/exhibition/texts/31,32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/31,32_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
+    },
+    "33,34,35,36,37,38": {
+      "numbers": [
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "titleJa": "1：20 断面模型",
+      "titleEn": "1:20 Section Model",
+      "ja": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
+      "en": "assets/exhibition/texts/33,34,35,36,37,38_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
     },
     "01": {
       "numbers": [
@@ -592,71 +709,6 @@
       "titleEn": "Collage of Six Surrounding Buildings",
       "ja": "assets/exhibition/texts/08,09_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82.txt",
       "en": "assets/exhibition/texts/08,09_%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%B8%E3%81%AE%E6%8E%A2%E6%B1%82_EN.txt"
-    },
-    "18,19,20": {
-      "numbers": [
-        "18",
-        "19",
-        "20"
-      ],
-      "titleJa": "4脚の椅子",
-      "titleEn": "4 Chairs",
-      "ja": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/18,19,20_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
-    },
-    "21,22": {
-      "numbers": [
-        "21",
-        "22"
-      ],
-      "titleJa": "展示本「断片から全体を知覚する」",
-      "titleEn": "Exhibition Book: From Fragments to a Whole",
-      "ja": "assets/exhibition/texts/21,22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/21,22_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
-    },
-    "23,24": {
-      "numbers": [
-        "23",
-        "24"
-      ],
-      "titleJa": "展示本「抽象化への探求」",
-      "titleEn": "Exhibition Book: In Search of Abstraction",
-      "ja": "assets/exhibition/texts/23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/23,24_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
-    },
-    "25,26": {
-      "numbers": [
-        "25",
-        "26"
-      ],
-      "titleJa": "展示本「アノビルと横山町」",
-      "titleEn": "Exhibition Book: Ano Building and Yokoyamacho",
-      "ja": "assets/exhibition/texts/25.26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/25.26_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
-    },
-    "27,28": {
-      "numbers": [
-        "27",
-        "28"
-      ],
-      "titleJa": "展示本「読む建築」",
-      "titleEn": "Exhibition Book: Reading Architecture",
-      "ja": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/27,28_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
-    },
-    "29,30,31,32,33,34": {
-      "numbers": [
-        "29",
-        "30",
-        "31",
-        "32",
-        "33",
-        "34"
-      ],
-      "titleJa": "1：20 断面模型",
-      "titleEn": "1:20 Section Model",
-      "ja": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95.txt",
-      "en": "assets/exhibition/texts/29,30,31,32,33,34_%E8%AA%AD%E3%82%80%E5%BB%BA%E7%AF%89%E5%B1%95_EN.txt"
     }
   }
 }
