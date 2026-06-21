@@ -37,7 +37,7 @@ const ARCHIVE_CONTENT = {
     price: "¥5,000",
     priceNote: "限定 20 部。税込・送料込み。",
     button: "販売準備中",
-    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブブック。横山町でのリサーチ、図面、テキストを改めて制作し直し、展示会写真と共に収録しています。\n\n編集・企画：大塚史奈、喜井雅治\nデザイン：平川航太\n写真・撮影協力：大塚紫乃\n\n発行日：2026 年 5 月〇〇日\nA4 判変形 210×210mm / 104項",
+    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブブック。横山町でのリサーチ、図面、テキストを改めて制作し直し、展示会写真と共に収録しています。\n\n編集・企画：大塚史奈、喜井雅治\nデザイン：平川航太\n写真・撮影協力：大塚紫乃\n\n発行予定：2026 年7 月\nA4 判変形 210×210mm / 104項",
     credit: ""
   },
   en: {
@@ -45,7 +45,7 @@ const ARCHIVE_CONTENT = {
     price: "¥5,000",
     priceNote: "Limited to 20 copies　Tax / shipping included",
     button: "Preparing for Sale",
-    description: "An archive book documenting the architecture exhibition “Ano Bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication Date: May 00, 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
+    description: "An archive book documenting the architecture exhibition “Ano Bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication scheduled for July 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
     credit: ""
   }
 };
@@ -784,7 +784,8 @@ function renderAnoCaption() {
 }
 
 function renderAnoSubtitle(subtitle, titleKey) {
-  if (titleKey === "archive" && subtitle.includes("available now")) {
+  const hasArchiveStatus = subtitle.includes("coming soon") || (subtitle.includes("available") && subtitle.includes("now"));
+  if (titleKey === "archive" && hasArchiveStatus) {
     const label = document.createElement("span");
     const separator = document.createElement("span");
     const available = document.createElement("span");
@@ -794,7 +795,7 @@ function renderAnoSubtitle(subtitle, titleKey) {
     separator.className = "ano-archive-separator";
     separator.textContent = " / ";
     available.className = "ano-available-now";
-    available.textContent = "available now";
+    available.textContent = "coming soon";
     els.anoSubtitle.replaceChildren(label, separator, available);
     return;
   }
