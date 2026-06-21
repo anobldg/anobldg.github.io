@@ -41,11 +41,11 @@ const ARCHIVE_CONTENT = {
     credit: ""
   },
   en: {
-    title: "Ano Bldg Archive Book",
+    title: "Ano bldg Archive Book",
     price: "¥5,000",
     priceNote: "Limited to 20 copies　Tax / shipping included",
     button: "Preparing for Sale",
-    description: "An archive book documenting the architecture exhibition “Ano Bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication scheduled for July 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
+    description: "An archive book documenting the architecture exhibition “Ano bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication scheduled for July 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
     credit: ""
   }
 };
@@ -131,7 +131,7 @@ const state = {
 const COPY = {
   heading: {
     ja: "アノビルのこと",
-    en: "Ano Bldg"
+    en: "Ano bldg"
   },
   exhibitionInfo: {
     ja: [
@@ -143,7 +143,7 @@ const COPY = {
       "連絡先：<br><a href=\"mailto:mshr.tmkii@gmail.com\">mshr.tmkii@gmail.com</a>"
     ].map((text) => `<p>${text}</p>`).join(""),
     en: [
-      "Ano Bldg<br>An Exhibition of Drawings and Models",
+      "Ano bldg<br>An Exhibition of Drawings and Models",
       "Special Thanks:<br>Hiroshi Tomikawa Architects & Associates<br>Hiroshi Tomikawa",
       "Model Production Support:<br>Yuki Sato, Haruki Fukushima, Akari Nozu, Shinnosuke Adachi, Kyota Yotsuji, Ryo Shibata, Kota Katori, Kiminori Nakashima, Yoshino Sasaki, Yusuke Sasaki, Nano Sato, Norihisa Nagata, Sora Hashimoto, Saki Matsumoto, Shoki Yasue, Takuto Yoshida",
       "Instagram:<br><a href=\"https://www.instagram.com/ano_bldg/\" target=\"_blank\" rel=\"noreferrer\">@ano_bldg</a><br><a href=\"https://www.instagram.com/_mimi._.23/\" target=\"_blank\" rel=\"noreferrer\">@_mimi._.23</a><br><a href=\"https://www.instagram.com/masaharukii/\" target=\"_blank\" rel=\"noreferrer\">@masaharukii</a>",
@@ -773,7 +773,7 @@ function renderAnoCaption() {
   const rawTitle = item ? getTitle(item) : "";
   const subtitle = item ? getSubtitle(item) : "";
   const titleKey = getAnoCaptionTitleKey(rawTitle);
-  const title = state.lang === "en" && titleKey === "archive" ? "Ano Bldg Archive" : rawTitle;
+  const title = state.lang === "en" && titleKey === "archive" ? "Ano bldg Archive" : rawTitle;
   els.anoTitle.textContent = title;
   renderAnoSubtitle(subtitle, titleKey);
   if (titleKey) {
