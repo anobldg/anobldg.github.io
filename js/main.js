@@ -53,21 +53,21 @@ const ARCHIVE_CONTENT = {
 const SEO_META = {
   ja: {
     anoBuilding: {
-      title: "アノビルのこと / Ano Bldg",
+      title: "アノビルのこと / Ano bldg",
       description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブサイト。日本橋横山町でのリサーチ、図面、模型、テキスト、展示写真を収録しています。"
     },
     exhibition: {
-      title: "展示記録｜アノビルのこと / Ano Bldg Archive",
+      title: "展示記録｜アノビルのこと / Ano bldg Archive",
       description: "建築展「アノビルのこと」の展示写真、テキスト、図面、模型、アーカイブブックの記録をまとめたページです。"
     }
   },
   en: {
     anoBuilding: {
-      title: "Ano Bldg Archive",
+      title: "Ano bldg Archive",
       description: "Ano Bldg Archive is an archival website documenting the architecture exhibition “Ano Bldg,” including research, drawings, models, texts, and exhibition photographs from Yokoyama-cho."
     },
     exhibition: {
-      title: "Exhibition Archive | Ano Bldg",
+      title: "Exhibition Archive | Ano bldg",
       description: "An exhibition archive documenting “Ano Bldg” through photographs, texts, drawings, models, and the archive book."
     }
   }
