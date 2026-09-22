@@ -1,11 +1,20 @@
-Ano bldg Archive Book / Notes 1: An Exploration of Perception / Opening:
+Ano bldg Archive Book / Exploration 1: Modeling Perception / Opening:
 
 
-The world seems already to be there before we see it.
-And yet, the way that world appears to us changes greatly depending on the distance from which we approach it, and on the gestures with which we try to touch it.
+The models of the six buildings surrounding the site, placed at the entrance to the exhibition, were made with a strong awareness of what should be extracted from the real world and what should be subject to manipulation. A context model expresses how the relationship between a proposed building and its surrounding environment is understood and treated.
 
-For example, a person working on the fifth floor of a building may come to know the city from a height different from that of the ground, looking down at the road through a window. A person cleaning an apartment building may remember, through the body, the landings of the shared stairway or the positions of small windows, and may come to know the presence of the building across the way through those gaps. Even within the same city, not everyone is seeing the same landscape. When one’s position changes, the contours that come into view, and the details that draw one’s attention, naturally change as well.
-The image of the city is not singular to begin with. Even within the same Yokoyama-cho, a person looking down from a window, a person cleaning the stairs, and a person carrying goods will each remember different heights, smells, and details that catch their attention.
+For example, when a context model is made from polystyrene foam, only the volumes and general outlines of buildings are extracted from the real world. The resulting representation is therefore mediated through these limited conditions.
 
-When I first visited Nihonbashi Yokoyama-cho, all I knew was a rough outline: that it was a town that had prospered through wholesale trade since the Edo period. But when I actually walked through the city, I encountered layers of time far richer than any textbook explanation.
-…
+For the context model prepared for Ano Building, we used the camera of an iPhone to photograph the surroundings in a way that closely followed how we actually observed the buildings with our own eyes. Elements recognized within these photographs were extracted, cut out, and layered to construct the façades of the model.
+
+Meanwhile, parts that could not be seen from the street, but whose overall form could still be understood from there, were supplemented with aerial photographs. The rear sides of buildings, whose very presence could not be perceived from the street, were represented using piano wire (*1). The piano wire was woven together so as to construct the axes of the buildings as imagined from their façades and aerial photographs.
+
+Aerial photographs have relatively low image quality. By contrast, façades that can actually be photographed directly from the front have a much higher resolution. While making the model, we repeatedly noticed where the available resolution was insufficient and returned to photograph those places again.
+
+As a result, the completed model is less an accurate miniature of the city than an uneven representation in which the differences between what can and cannot be seen remain visibly present.
+
+In other words, the context model shown in the exhibition demonstrates that only what we ourselves saw in the city became the object of manipulation. At the same time, the degree to which those manipulations affect the streetscape is expressed through the varying resolution of the photographs used in the model.
+
+Rather than focusing primarily on the model’s size or overall form, viewers move back and forth between the photograph-covered façades and the unseen portions woven from piano wire, tracing where direct perception ends and inference begins.
+
+By placing Ano Building within this context model and considering it in relation to its surroundings, we were able to remain conscious, each time, of precisely what was being acted upon. In this way, the model became a means of developing the exhibition’s theme, “An Inquiry into Perception,” into a method embedded in the very process of making.
