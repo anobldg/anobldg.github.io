@@ -7,7 +7,7 @@ For example, when a context model is made from polystyrene foam, only the volume
 
 For the context model prepared for Ano Building, we used the camera of an iPhone to photograph the surroundings in a way that closely followed how we actually observed the buildings with our own eyes. Elements recognized within these photographs were extracted, cut out, and layered to construct the façades of the model.
 
-Meanwhile, parts that could not be seen from the street, but whose overall form could still be understood from there, were supplemented with aerial photographs. The rear sides of buildings, whose very presence could not be perceived from the street, were represented using piano wire (*1). The piano wire was woven together so as to construct the axes of the buildings as imagined from their façades and aerial photographs.
+Meanwhile, parts that could not be seen from the street, but whose overall form could still be understood from there, were supplemented with aerial photographs. The rear sides of buildings, whose very presence could not be perceived from the street, were represented using piano wire. The piano wire was woven together so as to construct the axes of the buildings as imagined from their façades and aerial photographs.
 
 Aerial photographs have relatively low image quality. By contrast, façades that can actually be photographed directly from the front have a much higher resolution. While making the model, we repeatedly noticed where the available resolution was insufficient and returned to photograph those places again.
 
