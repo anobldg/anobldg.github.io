@@ -784,7 +784,7 @@ function renderAnoCaption() {
 }
 
 function renderAnoSubtitle(subtitle, titleKey) {
-  const hasArchiveStatus = subtitle.includes("coming soon") || (subtitle.includes("available") && subtitle.includes("now"));
+  const hasArchiveStatus = subtitle.includes("available now") || (subtitle.includes("available") && subtitle.includes("now"));
   if (titleKey === "archive" && hasArchiveStatus) {
     const label = document.createElement("span");
     const separator = document.createElement("span");
@@ -795,7 +795,7 @@ function renderAnoSubtitle(subtitle, titleKey) {
     separator.className = "ano-archive-separator";
     separator.textContent = " / ";
     available.className = "ano-available-now";
-    available.textContent = "coming soon";
+    available.textContent = "available now";
     els.anoSubtitle.replaceChildren(label, separator, available);
     return;
   }
