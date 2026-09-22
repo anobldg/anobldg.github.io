@@ -1,4 +1,4 @@
-const PURCHASE_URL = "#";
+const PURCHASE_URL = "https://buy.stripe.com/3cI5kDgCGcJSfYd3AqeAg01";
 const DATA_URL = "data/images.json";
 const DATA_VERSION = "20260621-exhibition-38-numbered-images";
 const DEBUG_TEXT = false;
