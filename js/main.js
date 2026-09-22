@@ -34,18 +34,18 @@ const BACKGROUND_IMAGE_LIST = [
 const ARCHIVE_CONTENT = {
   ja: {
     title: "アノビルのこと　アーカイブブック",
-    price: "¥5,000",
+    price: "¥4,000",
     priceNote: "限定 20 部。税込・送料込み。",
-    button: "販売準備中",
-    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブブック。横山町でのリサーチ、図面、テキストを改めて制作し直し、展示会写真と共に収録しています。\n\n編集・企画：大塚史奈、喜井雅治\nデザイン：平川航太\n写真・撮影協力：大塚紫乃\n\n発行予定：2026 年7 月\nA4 判変形 210×210mm / 104項",
+    button: "購入する",
+    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブブック。横山町でのリサーチ、図面、テキストを改めて制作し直し、展示会写真と共に収録しています。\n\n編集・企画：大塚史奈、喜井雅治\nデザイン：平川航太\n写真・撮影協力：大塚紫乃\n\n発行予定：2026 年8 月18　日\nA4 判変形 210×210mm / 104項",
     credit: ""
   },
   en: {
     title: "Ano bldg Archive Book",
-    price: "¥5,000",
+    price: "¥4,000",
     priceNote: "Limited to 20 copies　Tax / shipping included",
-    button: "Preparing for Sale",
-    description: "An archive book documenting the architecture exhibition “Ano bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication scheduled for July 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
+    button: "purchase",
+    description: "An archive book documenting the architecture exhibition “Ano bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication scheduled for August 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
     credit: ""
   }
 };
