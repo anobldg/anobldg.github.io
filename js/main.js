@@ -37,7 +37,7 @@ const ARCHIVE_CONTENT = {
     price: "¥4,000",
     priceNote: "限定 20 部。税込・送料込み。",
     button: "購入する",
-    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブブック。横山町でのリサーチ、図面、テキストを改めて制作し直し、展示会写真と共に収録しています。\n\n編集・企画：大塚史奈、喜井雅治\nデザイン：平川航太\n写真・撮影協力：大塚紫乃\n\n発行予定：2026 年8 月18 日\nA4 判変形 210×210mm / 104項",
+    description: "建築展「アノビルのこと」の展示記録をまとめたアーカイブブック。横山町でのリサーチ、図面、テキストを改めて制作し直し、展示会写真と共に収録しています。\n\n編集・企画：大塚史奈、喜井雅治\nデザイン：平川航太\n写真・撮影協力：平川航太、大塚紫乃\n\n発行日：2026 年8 月18 日\nA4 判変形 210×210mm / 104項",
     credit: ""
   },
   en: {
@@ -45,7 +45,7 @@ const ARCHIVE_CONTENT = {
     price: "¥4,000",
     priceNote: "Limited to 20 copies　Tax / shipping included",
     button: "purchase",
-    description: "An archive book documenting the architecture exhibition “Ano bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Shino Otsuka\n\nPublication scheduled for August 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
+    description: "An archive book documenting the architecture exhibition “Ano bldg.”\nIt includes newly reworked research, drawings, and texts from Yokoyama-cho, together with photographs of the exhibition.\n\nEditing: Fumina Otsuka, Masaharu Kii\nDesign: Kota Hirakawa\nPhotography: Kota Hirakawa, Shino Otsuka\n\nFirst Published August 2026\nModified A4 Format, 210 × 210 mm / 104 pages",
     credit: ""
   }
 };
