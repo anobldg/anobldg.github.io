@@ -40,7 +40,7 @@
   "exhibition": [
     {
       "id": "01",
-      "src": "assets/exhibition/images/01_%E3%82%A2%E3%83%8E%E3%83%92%E3%82%99%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%95%E3%82%99.webp?m=f7459394a6",
+      "src": "assets/exhibition/images/01_アノビルアーカイブ.webm",
       "type": "video",
       "titleJa": "アーカイブブック",
       "titleEn": "Archive Book",
@@ -668,8 +668,8 @@
       "numbers": [
         "04"
       ],
-      "titleJa": "「雑記1」 / アーカイブブック",
-      "titleEn": "Notes 1 / Archive Book",
+      "titleJa": "「表現1」 / アーカイブブック",
+      "titleEn": "Expression 1 / Archive Book",
       "ja": "assets/exhibition/texts/04_archive-book.txt",
       "en": "assets/exhibition/texts/04_archive-book_EN.txt"
     },
